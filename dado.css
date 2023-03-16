@@ -1,0 +1,59 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dado{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: solid black;
+    position: relative;
+}
+#punto1{
+    border: solid black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+}
+#punto2{
+    border: solid aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: aqua;
+}
+#punto3{
+    border: solid red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    background-color: red;
+}
+#punto4{
+    border: solid blueviolet;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: blueviolet;
+}
+#punto5{
+    border: solid green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+}
+
